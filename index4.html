@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gif masking in SVG</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+    <div class="logo">
+      <a href="index-2.html">AOKO.</a>
+    </div>
+    <div id="about" class="box">
+      <div class="header">
+        <nav>
+          <h2>
+            <a href="#" onclick="">
+              <video loop autoplay muted playsinline class="nav-video">
+                <source src='images/%40stock/about-19.optimized..faststart.mp4' type='video/mp4'>
+              </video>
+              <svg width="600" height="338" viewBox="0 0 600 338" class="svg-graphic" id="svg-graphic-about">
+                <defs>
+				<mask 
+				 id="mask" 
+				 maskunits="userSpaceOnUse"
+				 maskcontentunits="userSpaceOnUse">
+				<image 
+					xlink:href="C:\Users\shivr\Desktop\WP Themes\100Beverages\gif-masking-in-svg\100tenor.gif" 
+					width="100%" 
+					height="100%" />
+				</mask>
+				</defs>
+                <!-- rect should be bigger than 337.5, vector shape should be smaller than 337.5 -->
+                <!-- the 337.5 is calcutated by 600 / 16 * 9 -->
+                <rect x="0" y="0" width="600" height="338" />
+              </svg>
+              <span>About</span>
+            </a>
+          </h2>
+        </nav>
+        <div class="header-title invisible">
+          <div class="row">
+            <div class="large-8 columns">
+              <h2>About</h2>
+              <p>We build brands people trust. Our values and ideas bring people and brands together.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+	   
+  </body>
+  
+  
+
+</body>
+
+</html>

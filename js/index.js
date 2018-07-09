@@ -22,4 +22,4 @@ $(document).ready(function() {
 });
 
 // the 10,000 most comment words, taken from https://goo.gl/hfjFkz
-words = [ "amazing", "brilliant", "clean", "detox", "fresh", "fun", "great", "impressive", "imaginative", "fitness", "health", "tasty", "refreshing", "beautiful", ];
+words = [ "amazing", "brilliant", "clean", "detox", "fresh", "fun", "great", "impressive", "imaginative", "fitness", "health", "tasty", "refreshing", "beautiful" ];
